@@ -1,0 +1,243 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="navbar">
+        <div id="home">
+          <img src="./Untitled-5.jpg" alt="Logo" class="logo" />
+        </div>
+        <div class="navigation">
+          <a href="/">Home</a>
+          <a href="/favper">Favourite Personalities</a>
+          <a href="/favcities">Favourite Cities</a>
+          <a href="/favdest">Favourite Destinations</a>
+          <a href="/contact"">Contact</a>
+          <!-- Add more navigation buttons as needed -->
+        </div>
+      </div>
+      <div class="info-container">
+        <div class="name">
+          <h2 style="font-family:Georgia, 'Times New Roman', Times, serif;">Favourite Cities</h2>
+        </div>
+      </div>
+    <header>
+        <h1>Contact Us</h1>
+        <p>Get in touch with us for any inquiries</p>
+    </header>
+
+    <!-- Contact Form Section -->
+    <section>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <div class="contact-section">
+        <div class="custom-navbar">
+          <div id="home">
+            <img
+              src="./Untitled-5.jpg"
+              alt="Logo"
+              class="custom-logo"
+            />
+          </div>
+          <div class="custom-navigation">
+            <div class="icons">
+                <div class="icon"> <a href="https://www.facebook.com/sikandar.farooq.10" target="_blank"><img  src="./facebook.png"  alt="fb"></a></div>
+                <div class="icon"> <a href="https://www.instagram.com/sani_sikandar/" target="_blank"><img  src="./instagram.png"  alt="fb"></a></div>
+                <div class="icon"> <a href="https://www.linkedin.com/in/sikandar-farooq-8b1154224/" target="_blank"><img  src="./linkedin.png"  alt="fb"></a></div>
+                <div class="icon"> <a href="https://www.youtube.com/channel/UCPj1Y8QK-kuPO_jnVeb5Fmg" target="_blank"><img  src="./youtube.png"  alt="fb"></a></div>
+              </div>
+          </div>
+        </div>
+</body>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f9f9f9;
+        color: #333;
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    header {
+        background-color: #ffffff;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        width:100% ;
+    }
+
+    section {
+        width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #3498db;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #2980b9;
+    }
+
+    @media screen and (max-width: 600px) {
+        section {
+            width: 90%;
+        }
+    }
+
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px;
+      margin-top: 10px;
+      background-color: #3498db;
+      /* Transparent white background */
+    }
+
+    .logo {
+      width: 150px; /* Adjust the width as needed */
+      height: auto; /* Maintain aspect ratio */
+      margin-left: 15px;
+    }
+    .hline {
+      color: white;
+      border: 0.5px solid;
+    }
+    .navigation {
+      display: flex;
+    }
+    .line {
+      color: beige;
+      border: 1px solid;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .navigation a {
+      margin-right: 15px; /* Adjust spacing between navigation buttons */
+      text-decoration: none;
+      margin-left: 5px;
+      color: white; /* Adjust color as needed */
+    }
+
+
+    
+
+
+
+
+    .contact-section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      /* Adjust the max-width as needed */
+      margin: 0px auto;
+      padding: 10px;
+      background-color: #3498db;
+    }
+
+    .custom-navbar {
+      display: flex;
+      justify-content: space-between;
+
+      color: white;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .custom-logo {
+      width: 150px; /* Adjust the width as needed */
+      height: auto; /* Maintain aspect ratio */
+    }
+
+    .custom-navigation {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    .contact-info {
+      text-align: left;
+      color: white;
+    }
+
+    .icons {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+    }
+
+    .icons img {
+      width: 24px; /* Adjust the width as needed */
+      height: 24px; /* Adjust the height as needed */
+      margin-right: 15px;
+      cursor: pointer;
+    }
+    .icon {
+      margin-right: 15px;
+      font-size: 24px;
+      color: #333;
+    }
+
+    
+
+   
+</style>
+</html>
